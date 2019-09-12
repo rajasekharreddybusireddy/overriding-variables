@@ -1,0 +1,57 @@
+public class P {
+	String s = "raja";
+}
+=========================================
+public class C extends P {
+	String s = "narender";
+}
+=========================================
+public class App {
+	public static void main(String[] args) {
+		P p = new P();
+		System.out.println(p.s);
+		C c = new C();
+		System.out.println(c.s);
+
+		P p1 = new C();
+		System.out.println(p1.s);
+	}
+}
+==============================================================
+output:-
+----------
+raja
+narender
+raja
+=================================================================================================
+Overriding
+-------------
+1.overriding applicable only for methods.
+2.overriding is not applicable for variables.
+3.for variables it will consider object refernces //ex:- Parent p
+4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
